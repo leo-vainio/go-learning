@@ -2,6 +2,11 @@
 
 variables.go (src/variables/variables.go) shows examples of how to assign and initialize variables in Go. Some extra information are also given about variable scope, naming conventions and type conversion.
 
+### Naming conventions in Go
+- Variable length should be as short as reasonable. It should reflect the lifetime of the variable in question.
+- Acronyms such as URL or HTTP should be all uppercase and not Url or Http in variable names.
+- Use PascalCase or camelCase.
+
 ```go
 
 package main
