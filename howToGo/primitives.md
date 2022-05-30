@@ -1,6 +1,6 @@
 # Primitives in Go
 
-// u cant mix types of the same family (float32 + float64) for example
+When performing arithmetic operations on primitive types you can't mix different types, not even types in the same family. int8 + int32 does for example not work
 
 ```go
 
