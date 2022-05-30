@@ -1,6 +1,6 @@
 # Primitives in Go
 
-When performing arithmetic operations on primitive types you can't mix different types, not even types in the same family. int8 + int32 does for example not work
+When performing arithmetic operations on primitive types you can't mix different types, not even types in the same family. int8 + int32 does for example not work. For more information about how complex numbers and runes work, see the go programming language specification.
 
 ```go
 
