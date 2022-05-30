@@ -1,5 +1,7 @@
 # Variables in Go
 
+variables.go (src/variables/variables.go) shows examples of how to assign and initialize variables in Go. Some extra information are also given about variable scope, naming conventions and type conversion.
+
 ```go
 
 package main
