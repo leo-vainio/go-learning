@@ -4,6 +4,7 @@ When performing arithmetic operations on primitive types you can't mix different
 
 ```go
 
+// primitives.go
 package main
 
 import (
