@@ -50,4 +50,9 @@ func main() {
 	fmt.Println(d, e, f)
 	fmt.Println(g, h, i)
 	fmt.Println(KB, MB, GB)
+
+	const num1 = iota
+	const num2 = iota
+	fmt.Println(num1, num2)
+
 }
