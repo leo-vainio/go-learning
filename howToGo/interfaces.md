@@ -85,6 +85,18 @@ func (s *Student) show() {
 	s.name = "HEJ"
 }
 
+type person struct {
+	Name string
+	Age  int
+}
+
+// The Stringer interface, defined in the fmt package, is one of the most common interfaces.
+// A Stringer is a type that can describe itself as a string. The fmt package and others look
+// for this interface to print values.
+func (p person) String() string {
+	return fmt.Sprintf("%v (%v years)", p.Name, p.Age)
+}
+
 func main() {
 	// Interfaces can be thought of as a tuple of a value and a concrete type. There are
 	// value receivers and pointer receivers. Pointer receiver are most common since we
@@ -116,8 +128,11 @@ func main() {
 
 	// The empty interface. The interface type that specifies zero methods. An empty interface
 	// can hold values of any type since every type implements at least zero methods. Empty
-	// interfaces are used by code that handles values of unknown type.
+	// interfaces are used by code that handles values of unknown type. any is an alias for
+	// the empty interface.
 	var i interface{}
+	var empty any
+	fmt.Printf("(%v, %T)\n", empty, empty)
 	fmt.Printf("(%v, %T)\n", i, i)
 	i = NewBufferedWriterCloser()
 	fmt.Printf("(%v, %T)\n", i, i)
@@ -152,6 +167,11 @@ func main() {
 	var wc WriterCloser = NewBufferedWriterCloser()
 	wc.Write([]byte("Hello there you ugly piece of shit!"))
 	wc.Close()
+
+	// Testing the Stringer interface.
+	y := person{"Arthur Dent", 42}
+	z := person{"Zaphod Beeblebrox", 9001}
+	fmt.Println(y, z)
 }
 
 ```
