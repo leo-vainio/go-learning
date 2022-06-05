@@ -12,3 +12,13 @@ TODO:
 - Getting familiar with packages on the go website
 - 2 google lectures
 - writing web applications
+- input/output
+- Solve one kattis problem maybe?
+- data structures and algorithms in go
+- the go mod tool and other command line commands that can be useful
+- how to organise a go project.
+- gophercises
+- modules
+- https://go.dev/doc/code
+- https://go.dev/doc/
+- Documentation
