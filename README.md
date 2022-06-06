@@ -10,7 +10,6 @@ TODO:
 - 11 go projects
 - Blog posts
 - Getting familiar with packages on the go website
-- 2 google lectures
 - writing web applications
 - input/output
 - Solve one kattis problem maybe?
