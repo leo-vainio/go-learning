@@ -3,7 +3,7 @@
 TODO:
 
 - Generics
-- Packages (see if we can put all howtosrc into one folder)
+- Packages
 - Testing
 - init function
 - Look through Effective Go
