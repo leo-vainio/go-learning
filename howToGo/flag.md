@@ -6,7 +6,7 @@
 
 > go build -o out
 > out 
-> out 
+> out -bool=true
 > out --port 1234 -num=44 --bool -svar=hello
 > out --bool=true coffee
 > out --bool=true coffee -cream --sugar=brown randomstring
