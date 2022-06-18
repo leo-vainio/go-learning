@@ -4,7 +4,7 @@
 
 Windows Defender sometimes flags go executables as a virus, making building and running the files impossible. To bypass this we can exclude a certain folder 
 from being monitored by Windows Defender and building the .exe file into this folder by using the command shown below. This is however a minor inconvenience since
-we need navigate to another folder in order to run the executable. It is however more safe to do it this way since we don't have to exclude for example \$TEMP\$
+we need navigate to another folder in order to run the executable. It is however more safe to do it this way since we don't have to exclude for example \\$TEMP\\$
 from windows defender. 
 
 ```console
