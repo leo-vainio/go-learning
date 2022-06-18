@@ -19,8 +19,6 @@ TODO:
 - Generics
 - Packages
 - Testing
-- init function
-- Look through Effective Go
 - 11 go projects
 - Blog posts
 - Getting familiar with packages on the go website
