@@ -29,7 +29,6 @@ TODO:
 - the go mod tool and other command line commands that can be useful
 - how to organise a go project.
 - gophercises
-- modules
 - https://go.dev/doc/code
 - https://go.dev/doc/
 - Documentation
