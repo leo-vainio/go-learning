@@ -2,8 +2,14 @@
 
 ### Bypassing windows defender
 
+Windows defender sometimes flags go executables as potential virus making running the files impossible. To bypass this we can exclude a certain folder from being
+checked by windows defender and performing the build into this folder. Running it from there will therefore not be an issue. This is however an inconvenience since
+we need to be in another folder in order to run the file. But it's more safe this way since we don't have to exclude for example $TEMP$ from windows defender. 
+
 ```console
-go build -o D:\go-builds\out.exe
+
+> go build -o D:\go-builds\out.exe
+
 ```
 
 
