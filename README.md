@@ -1,5 +1,12 @@
 # go-learning
 
+### Bypassing windows defender
+
+```console
+go build -o D:\go-builds\out.exe
+```
+
+
 TODO:
 
 - Generics
